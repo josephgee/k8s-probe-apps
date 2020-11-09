@@ -7,10 +7,10 @@ that will:
 - push to docker hub
 - apply a pod to run the app in the current cluster
 
-# crash-loop
+## crash-loop
 
 This app crashes on a regular interval to observe termination status behavior
 
-# cpu-loader
+## cpu-loader
 
 This app ramps up cpu load gradually to 100% and back down again to observe cpu load reporting
