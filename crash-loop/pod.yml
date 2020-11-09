@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: crash-loop
+spec:
+  containers:
+    - name: crash-loop
+      image: jgeeatvmware/crash-loop:1
