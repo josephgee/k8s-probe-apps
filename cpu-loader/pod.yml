@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
     - name: cpu-loader
-      image: jgeeatvmware/cpu-loader:1
+      image: jgeeatvmware/cpu-loader:2

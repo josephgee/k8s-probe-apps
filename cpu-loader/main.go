@@ -3,9 +3,18 @@ package main
 import "time"
 
 func main() {
-	loadInterval := 3 * time.Second
-	rampUpCpu(loadInterval)
-	rampDownCpu(loadInterval)
+	loadInterval := time.Minute
+	for {
+		println("Start of Cycle")
+
+		println("Ramping up")
+		rampUpCpu(loadInterval)
+
+		println("Ramping down")
+		rampDownCpu(loadInterval)
+		
+		println("End of Cycle")
+	}
 }
 
 func rampUpCpu(loadInterval time.Duration) {
